@@ -141,7 +141,7 @@ export default function WalletModal() {
         <div className="text-white text-sm">
           {account.slice(0, -8)}...
         </div>
-        <Button className="chipz-pink mt-3" onClick={logout}>Logout</Button>
+        <Button className="test-pink mt-3" onClick={logout}>Logout</Button>
       </Modal>
   )
 }

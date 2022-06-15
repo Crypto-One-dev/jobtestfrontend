@@ -106,7 +106,7 @@ export function InlineFooter({additionalClass, extra}) {
             </div>
           :
             <Button
-              className="chipz-red"
+              className="test-red"
               width="170px"
               height="40px"
               onClick={toggleWrongNetworkModal}
@@ -116,7 +116,7 @@ export function InlineFooter({additionalClass, extra}) {
             </Button>
         :
           <Button
-            className="chipz-pink"
+            className="test-pink"
             width="170px"
             height="40px"
             onClick={toggleWalletModal}

@@ -173,7 +173,7 @@ export default function StakePage() {
           {
             account && isRightNetwork(chainId) ?
               <Button
-                className="w-full chipz-pink"
+                className="w-full test-pink"
                 disabled={status === STATUS.PENDING || toFloat(newClaim) <= 0}
                 onClick={claimToken}
               >
@@ -181,7 +181,7 @@ export default function StakePage() {
               </Button>
             :
               <Button
-                className="w-full chipz-pink"
+                className="w-full test-pink"
                 disabled={status === STATUS.PENDING}
                 onClick={!account ? toggleWalletModal : null}
               >

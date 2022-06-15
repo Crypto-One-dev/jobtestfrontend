@@ -25,19 +25,19 @@ code {
   }
 }
 
-.chipz-pink {
+.test-pink {
     background: linear-gradient(314.61deg, rgba(0, 0, 0, 0.3) -31.16%, rgba(255, 255, 255, 0.3) 136.93%), #92277d;
     background-blend-mode: soft-light, normal;
     border-radius: 8px;
     position: relative;
 }
-.chipz-pink:not([disabled]):hover {
+.test-pink:not([disabled]):hover {
     background: linear-gradient(314.61deg, rgba(0, 0, 0, 0.3) -31.16%, rgba(255, 255, 255, 0.3) 136.93%), #92277d;
     transform: scale(0.99);
     border-radius: 8px;
     transition: transform 450ms ease 0s;
 }
-.chipz-red {
+.test-red {
   background: linear-gradient(314.61deg, rgba(0, 0, 0, 0.3) -31.16%, rgba(255, 255, 255, 0.3) 136.93%), #FF4B33;
   background-blend-mode: soft-light, normal;
   border-radius: 8px;
