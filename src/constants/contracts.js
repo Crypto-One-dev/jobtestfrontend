@@ -1,0 +1,2 @@
+//testnet
+export const TEST_TOKEN = '0xFE2b4781C5033CEC3aBAa0705D272d61838b91b9'
